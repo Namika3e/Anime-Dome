@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-image: linear-gradient(45deg, #FFDD00, #FBB034);
+  padding: .5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #000;
+} 
+.form-section {
+  width: 80%;
+  margin:0 auto;
+  /* background-color: red; */
+  border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 5px;
+  padding: .6rem;
+}
